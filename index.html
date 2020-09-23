@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -27,19 +28,21 @@
 		<section id="lottery">
 			<div id="sec-content">GENERATE YOUR LUCKEY NUMBER</div>
 				<div>
-					<button id="btn" <button type="button" class="btn btn-primary btn-lg animate__animated animate__bounce">Click on me</button>
-<h2><span id="n.o"></span></h2>
-<a href="#result-input"><button <button type="button" class="btn btn-primary btn-lg ">TRY YOUR LUCK</button></a>
-
+					<button id="btn" type="button" class="btn btn-primary btn-lg animate__animated animate__bounce">Click on me</button>
+					<div id="luckey">
+						<h2 id="n.o1">YOUR LUCKEY NUMBER IS<span id="n.o"></span></h2>
+					</div>
+					
+					<a href="#result-input"><button  type="button" class="btn btn-primary btn-lg ">TRY YOUR LUCK</button></a>
 		</section>
 		<section class="result">
-			<h1>TRY YOUR LUCK</h1>
+			<h1 id="heading">TRY YOUR LUCK</h1>
 			<div id="result-input">
 				 <input type="text" id="check" placeholder="enter your lottry digit">
-<button id="sumbit">sumbit</button>
+				<button id="sumbit">sumbit</button>
 			</div>
 			<div id="winner">
-				<img  id="winner-image" ondblclick="winner()" ;>
+				<img src="aaa.png" id="winner-img">
 				<h3 ><span id="win"></span></h3>
 			</div>
 			<div id="loss">
